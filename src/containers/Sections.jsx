@@ -34,9 +34,9 @@ const Sections = () => {
         {Object.keys(WritingData).map((key) => (
           <WritingSection title={key} articles={WritingData[key]} />
         ))}
-        {Object.keys(VisualData).map((key) => (
+        {/* {Object.keys(VisualData).map((key) => (
           <VisualSection title={key} articles={VisualData[key]} />
-        ))}
+        ))} */}
           <AdsSection ads={Ads} />
           <Credits/>
       </ArticleColumn>
