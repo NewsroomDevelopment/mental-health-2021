@@ -6,6 +6,7 @@ import Nav from "../components/Nav";
 import AdsSection from "./AdsSection";
 import WritingSection from "./WritingSection";
 import VisualSection from "./VisualSection";
+import Credits from "./Credits";
 
 import Ads from "../utils/Ads";
 import WritingData from "../utils/WritingData";
@@ -37,6 +38,7 @@ const Sections = () => {
           <VisualSection title={key} articles={VisualData[key]} />
         ))}
           <AdsSection ads={Ads} />
+          <Credits/>
       </ArticleColumn>
     </Columns>
   );

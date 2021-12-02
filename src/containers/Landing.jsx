@@ -7,7 +7,7 @@ import { Desktop, MobileAndTablet } from "react-responsive-simple";
 const TitleWrapper = styled.div`
   overflow: hidden;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   justify-content: space-between;
   background-image: url(${(props) => props.img});
