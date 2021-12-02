@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const SideArticle = () => {
-  return "Nav Bar here";
+  return "Side Article here";
 };
 
 export default SideArticle;

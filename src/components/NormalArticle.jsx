@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const NormalArticle = () => {
-  return "Nav Bar here";
+  return "Normal Article here";
 };
 
 export default NormalArticle;

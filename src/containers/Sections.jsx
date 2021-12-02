@@ -3,12 +3,13 @@ import styled from "styled-components";
 
 import Letter from "../components/Letter";
 import Nav from "../components/Nav";
+import AdsSection from "./AdsSection";
 import WritingSection from "./WritingSection";
 import VisualSection from "./VisualSection";
 
+import Ads from "../utils/Ads";
 import WritingData from "../utils/WritingData";
 import VisualData from "../utils/VisualData";
-
 const Columns = styled.div`
   display: flex;
 `;
@@ -32,6 +33,10 @@ const Sections = () => {
         {Object.keys(WritingData).map((key) => (
           <WritingSection title={key} articles={WritingData[key]} />
         ))}
+        {Object.keys(VisualData).map((key) => (
+          <VisualSection title={key} articles={VisualData[key]} />
+        ))}
+          <AdsSection ads={Ads} />
       </ArticleColumn>
     </Columns>
   );
