@@ -1,12 +1,25 @@
 import React from "react";
 import styled from "styled-components";
+import NYBasics from "../images/ny_basics_ad.png";
+import Zabar from "../images/zabar_ad.png";
 
-const Ad = styled.div`
-  width: 50%;
+import Ad from "../components/Ad";
+
+const AdBlock = styled.div`
+  display:flex;
+  justify-content:space-between;
+  padding-bottom:10%;
 `;
 
-const AdsSection = ({ ads }) => {
-  return <Ad />;
+const AdsSection = () => {
+  return (
+    <>
+      <AdBlock>
+        <Ad img={Zabar} />
+        <Ad img={NYBasics} />
+      </AdBlock>
+    </>
+  );
 };
 
 export default AdsSection;

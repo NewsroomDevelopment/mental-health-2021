@@ -13,22 +13,21 @@ const TitleWrapper = styled.div`
   background-image: url(${(props) => props.img});
   background-size: cover;
   background-position: center;
-  background-repeat:no-repeat;
-  
+  background-repeat: no-repeat;
 `;
 
 const Header = styled.div`
   color: white;
-  text-transform: uppercase;
   margin-top: 6rem;
   margin-right: 1rem;
-  position: absolute;
-  top: 8px;
-  line-height: 1em;
-  right: 16px;
-  font-family: brandon-grotesque;
+  position: relative;
+  top: 15%;
+  line-height: 10em;
+  width: 50%;
+  left: 8%;
+  font-family: montserrat;
   & > h1 {
-    font-size: 4rem;
+    font-size: 6rem;
   }
   @media only screen and (max-width: 1024px) {
     word-wrap: break-word;
@@ -49,14 +48,14 @@ const Landing = () => {
       <Desktop>
         <TitleWrapper img={ImgSrc_desktop}>
           <Header>
-            <h1>Homecoming 2021</h1>
+            <h1>Mental health on campus</h1>
           </Header>
         </TitleWrapper>
       </Desktop>
       <MobileAndTablet>
         <TitleWrapper img={ImgSrc_mobile}>
           <Header>
-            <h1 style={{ "line-height": "1.5em" }}>Homecoming 2021</h1>
+            <h1 style={{ "line-height": "5em" }}>Mental health on campus</h1>
           </Header>
         </TitleWrapper>
       </MobileAndTablet>

@@ -3,18 +3,16 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyles = createGlobalStyle`
     @import url("https://use.typekit.net/oun7bhh.css");
     h1 {
-        font-family: brandon-grotesque;
+        font-family: Montserrat;
         font-weight: 700;
         fontStyle: bold;
         font-size: 4rem;
-        line-height: 1rem;
-        text-transform: uppercase;
         @media (max-width: 767px) {
             font-size: 1rem;
         }
     }
-    p {
-          font-family: brandon-grotesque;
+    div {
+        font-family: 'Montserrat', sans-serif;
     }
     h2 {
         font-family: brandon-grotesque;
