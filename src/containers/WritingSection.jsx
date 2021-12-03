@@ -3,14 +3,13 @@ import styled from "styled-components";
 import SectionTitle from "../components/SectionTitle";
 import NormalArticle from "../components/NormalArticle";
 
-
 const WritingSection = ({ title, articles }) => {
   console.log(articles);
   return (
     <>
       <SectionTitle title={title} />
       {articles.map((article) => (
-        <NormalArticle articleData={article} />
+        <NormalArticle article={article} />
       ))}
     </>
   );

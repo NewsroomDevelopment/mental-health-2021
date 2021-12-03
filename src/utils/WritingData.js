@@ -7,7 +7,7 @@ const WritingData = {
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VTFZPSTLBNDYBB43ULBYHMTIBU.jpg",
     },
   ],
-  Graphics: [{}],
+  // Graphics: [{}],
   // ...
 };
 

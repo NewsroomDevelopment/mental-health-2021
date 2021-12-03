@@ -9,7 +9,7 @@ const VisualSection = ({ title, articles }) => {
     <>
       <SectionTitle title={title} />
       {articles.map((article) => (
-        <NormalArticle articleData={article} />
+        <NormalArticle article={article} />
       ))}
     </>
   );

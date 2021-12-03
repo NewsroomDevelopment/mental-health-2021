@@ -7,7 +7,7 @@ const VisualData = {
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VTFZPSTLBNDYBB43ULBYHMTIBU.jpg",
     },
   ],
-  Illo: [{}],
+  //Illo: [{}],
   // ...
 };
 
