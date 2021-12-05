@@ -3,11 +3,14 @@ import styled from "styled-components";
 import SectionTitle from "../components/SectionTitle";
 import NormalArticle from "../components/NormalArticle";
 
-const WritingSection = ({ title, articles }) => {
+const WritingSection = ({ title, articles, linePosition }) => {
   console.log(articles);
   return (
     <>
-      <SectionTitle title={title} />
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+      <a id={title} style={{ "text-decoration": "none" }}>
+        <SectionTitle title={title} linePosition={linePosition} />
+      </a>
       {articles.map((article) => (
         <NormalArticle article={article} />
       ))}

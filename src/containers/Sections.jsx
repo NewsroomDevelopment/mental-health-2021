@@ -25,7 +25,7 @@ const Title = styled.div`
   text-align: center;
   padding: 2%;
   font-size: 5rem;
-  text-transform:uppercase;
+  text-transform: uppercase;
   background-image: linear-gradient(
     89.88deg,
     #000748 35.17%,
@@ -57,12 +57,20 @@ const Sections = () => {
         <ArticleColumn>
           <Letter />
           <Title>Writing</Title>
-          {Object.keys(WritingData).map((key) => (
-            <WritingSection title={key} articles={WritingData[key]} />
+          {Object.keys(WritingData).map((key, index) => (
+            <WritingSection
+              title={key}
+              articles={WritingData[key]}
+              linePosition={index % 2 === 0 ? "after" : "before"}
+            />
           ))}
           <Title>Visuals</Title>
-          {Object.keys(VisualData).map((key) => (
-            <VisualSection title={key} articles={VisualData[key]} />
+          {Object.keys(VisualData).map((key, index) => (
+            <VisualSection
+              title={key}
+              articles={VisualData[key]}
+              linePosition={index % 2 === 0 ? "after" : "before"}
+            />
           ))}
           <AdsSection />
         </ArticleColumn>

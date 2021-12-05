@@ -4,6 +4,8 @@ import ImgSrc_mobile from "../images/desktop_background.png";
 import ImgSrc_desktop from "../images/desktop_background.png";
 import { Desktop, MobileAndTablet } from "react-responsive-simple";
 
+import { device } from "../device";
+
 const TitleWrapper = styled.div`
   overflow: hidden;
   width: 100vw;
@@ -28,6 +30,11 @@ const Header = styled.div`
   font-family: montserrat;
   & > h1 {
     font-size: 6rem;
+  }
+
+  @media ${device.mobile} {
+    line-height: 1em;
+    margin-top:3rem;
   }
   @media only screen and (max-width: 1024px) {
     word-wrap: break-word;

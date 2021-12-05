@@ -14,7 +14,7 @@ export const GlobalStyles = createGlobalStyle`
     div {
         font-family: 'Montserrat', sans-serif;
     }
-    h2 {
+    h2, h3{
         font-family: brandon-grotesque;
         font-weight: 700;
         fontStyle: bold;
@@ -23,17 +23,7 @@ export const GlobalStyles = createGlobalStyle`
         @media (max-width: 767px) {
             font-size: 1rem;
         }
-    }
-    h3 {
-        font-family: brandon-grotesque;
-        font-weight: 700;
-        fontStyle: bold;
-        font-size: .7rem;
-        margin: 0;
-        @media (max-width: 767px) {
-            font-size: 1rem;
-        }
-    }
+    },
     h4 {
         font-family: brandon-grotesque;
         font-weight: 400;

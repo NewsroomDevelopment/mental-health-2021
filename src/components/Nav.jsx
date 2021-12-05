@@ -1,19 +1,24 @@
 import React from "react";
 import styled from "styled-components";
+import { device } from "../device";
 
 import NavImg from "../images/nav.png";
 
 const NavSection = styled.div`
   background-image: url(${NavImg});
   background-size: contain;
-  margin-top:20%;
+  margin-top: 20%;
   background-repeat: no-repeat;
   overflow: hidden;
   background-position: left;
   width: 100%;
   height: 40vw;
   position: sticky;
-  top:0;
+  top: 0;
+
+  @media ${device.tablet} {
+    display: none;
+  }
 `;
 
 const SectionNav = styled.div`
@@ -44,7 +49,9 @@ const Nav = () => {
     <NavSection>
       <NavText>
         {Object.keys(sections).map((section) => (
-          <SectionNav left={sections[section]}>{section}</SectionNav>
+          <SectionNav left={sections[section]}>
+            <a href={`#${section}`}>{section}</a>
+          </SectionNav>
         ))}
       </NavText>
     </NavSection>

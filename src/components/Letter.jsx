@@ -30,6 +30,7 @@ const Title = styled.div`
 
 const Text = styled.div`
   font-size: 16px;
+  color: rgba(28, 81, 133, 1);
 `;
 const Letter = () => {
   return (
