@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import SectionTitle from "../components/SectionTitle";
-import NormalArticle from "../components/NormalArticle";
+import Article from "../components/Article"
+
 
 const WritingSection = ({ title, articles, linePosition }) => {
   console.log(articles);
@@ -12,7 +13,7 @@ const WritingSection = ({ title, articles, linePosition }) => {
         <SectionTitle title={title} linePosition={linePosition} />
       </a>
       {articles.map((article) => (
-        <NormalArticle article={article} />
+        <Article article={article} />
       ))}
     </>
   );

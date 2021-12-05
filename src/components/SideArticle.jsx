@@ -4,8 +4,10 @@ import styled from "styled-components";
 const ArticleWrap = styled.div`
     display: flex;
     flex-direction: column;
-    width: 20rem;
+    width: 70rem;
     margin: 1rem;
+    padding-bottom:40px;
+    
 `;
 
 const Link = styled.a`
@@ -13,21 +15,44 @@ const Link = styled.a`
     width: inherit;
 `;
 
-const ArticleImg = styled.img`
+const ArticleImgLeft = styled.img`
+  float: left;
   position: static;
   width: 316px;
   height: 219px;
-  left: 16px;
+  left: -10px;
   top: 16px;
-
-  background: #C4C4C4;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15);
   border-radius: 50px 10px 10px 50px;
-
+  
+  /* Inside Auto Layout */
+  
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 0px 40px;
+  margin-right: 0px;
+`;
+
+const ArticleImgRight = styled.img`
+  float: right;
+
+  position: static;
+  width: 316px;
+  height: 219px;
+  left: 664px;
+  top: 16px;
+
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px 50px 50px 10px;
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left:0px;
+
 `;
 
 const ArticleText = styled.div`
@@ -39,26 +64,28 @@ const ArticleText = styled.div`
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  float: left;
+  width: 40rem;
 `;
 
 const Title = styled.p`
   font-family: Bitter;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 25px;
   line-height: 38px;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 8px 0px;
 `;
 
 const Author = styled.p`
   font-family: Bitter;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 29px;
   flex: none;
   order: 1;
@@ -67,18 +94,32 @@ const Author = styled.p`
 `;
 
 
-const SideArticle = ({ article } ) => {
-  return (
-    <ArticleWrap>
-    <Link href={article.article_link} target="_blank" rel="noreferrer">
-        <ArticleImg src={article.image_url} />
-        <ArticleText>
-            <Title>{article.article_title}</Title>
-            <Author>{article.article_authors}</Author>
-        </ArticleText>
+const SideArticle = ({ article, left } ) => {
+  if (left) {
+    return (
+      <ArticleWrap>
+        <Link href={article.link} target="_blank" rel="noreferrer">
+          <ArticleImgLeft src={article.img} />
+          <ArticleText style={{float: "right"}}>
+            <Title>{article.title}</Title>
+            <Author>{article.author}</Author>
+          </ArticleText>
         </Link>
-    </ArticleWrap>
-  )
+      </ArticleWrap>
+    )
+  } else { 
+    return (
+      <ArticleWrap>
+        <Link href={article.link} target="_blank" rel="noreferrer">
+          <ArticleImgRight src={article.img} />
+          <ArticleText float={'left'}>
+            <Title>{article.title}</Title>
+            <Author>{article.author}</Author>
+          </ArticleText>
+        </Link>
+      </ArticleWrap>
+    )
+  }
 };
 
 export default SideArticle;
