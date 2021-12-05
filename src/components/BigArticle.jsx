@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+
+
 const ArticleWrap = styled.div`
-  position: absolute;
-  width: 920px;
+  width: 1000px;
   height: 601.82px;
   left: 0px;
   top: 0px;
@@ -16,35 +17,12 @@ const Link = styled.a`
 `;
 
 const ArticleImg = styled.img`
-  position: static;
-  width: 316px;
-  height: 219px;
-  left: 16px;
-  top: 16px;
-
-  background: url(.jpg), #C4C4C4;
-  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15);
-  border-radius: 50px 10px 10px 50px;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 40px;
+  width:100%;
+  height:100%;
+  border-radius: 43.8822px;
 `;
 
 const ArticleText = styled.div`
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 12px 0px;
-`;
-
-const Title = styled.p`
   position: absolute;
   width: 863.64px;
   height: 180.91px;
@@ -62,66 +40,82 @@ const Title = styled.p`
   text-shadow: 5.26586px 5.26586px 3.51057px rgba(0, 0, 0, 0.4);
 `;
 
-const Author = styled.p`
-  position: static;
-  width: 230px;
-  height: 43px;
-  left: 43px;
-  top: 0px;
+const Title = styled.p`
 
-  font-family: Bitter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 43px;
-  letter-spacing: 0.02em;
+width: 863.64px;
+height: 180.91px;
+left: 49.09px;
+top: 300.91px;
 
-  /* Blue 03 */
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 50.2115px;
+line-height: 70px;
 
-  color: #1C7AA7;
+color: #FFFFFF;
 
-  transform: rotate(90deg);
-
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 40px 0px;
+text-shadow: 5.26586px 5.26586px 3.51057px rgba(0, 0, 0, 0.4);
 `;
 
-const Rectangle = styled.div`
-  /* Rectangle 20 */
+const Author = styled.p`
 
+float:right;
+top:0;
+right:0;
 
-  position: static;
-  width: 2px;
-  height: 320px;
-  left: 20.5px;
-  top: 270px;
+width: 100px;
+height: 100px;
 
-  /* Blue 03 */
+font-family: Bitter;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 43px;
+letter-spacing: 0.02em;
 
-  background: #1C7AA7;
+/* Blue 03 */
 
-  /* Inside Auto Layout */
+color: #1C7AA7;
 
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 40px 0px;
+transform: rotate(90deg);
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 40px 0px;
+
+position: static;
+width: 2px;
+height: 320px;
+left: 20.5px;
+top: 270px;
+
+/* Blue 03 */
+
+background: #1C7AA7;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 40px 0px;
 `;
 const BigArticle = ({ article } ) => {
   return (
     <ArticleWrap>
-    <Link href={article.article_link} target="_blank" rel="noreferrer">
-        <ArticleImg src={article.image_url} />
-        <Title>{article.article_title}</Title>
-        <Author>{article.article_authors}</Author>
-        <Rectangle></Rectangle>
-        </Link>
+      <Link href={article.link} target="_blank" rel="noreferrer">
+        <ArticleImg src={article.img} />
+        <ArticleText>
+          <Title>{article.title}</Title>
+        </ArticleText>
+      </Link>
     </ArticleWrap>
-  )
+
+  );
 };
 
 export default BigArticle;

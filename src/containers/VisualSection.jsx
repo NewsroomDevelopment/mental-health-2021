@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import SectionTitle from "../components/SectionTitle";
-import NormalArticle from "../components/NormalArticle";
+
+import BigArticle from "../components/BigArticle";
 
 const VisualSection = ({ title, articles }) => {
   console.log(articles);
@@ -9,7 +10,7 @@ const VisualSection = ({ title, articles }) => {
     <>
       <SectionTitle title={title} />
       {articles.map((article) => (
-        <NormalArticle article={article} />
+        <BigArticle article={article} />
       ))}
     </>
   );
