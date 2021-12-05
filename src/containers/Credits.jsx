@@ -212,6 +212,9 @@ const Credits = () => {
                 <b>Hong Sen Du</b>, Head of Newsroom Development
               </p>
               <p>
+                <b>Evan Li</b>, Deputy Newsroom Developer
+              </p>
+              <p>
                 <b>Cindy Espinosa</b>, Head of Product
               </p>
               <p>

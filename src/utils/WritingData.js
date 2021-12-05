@@ -219,7 +219,7 @@ const WritingData = {
       link: "https://www.columbiaspectator.com/spectrum/2021/02/14/sense-about-scents-how-to-calm-yourself-with-the-campus-experience-anywhere/",
       author: "Aliza Rabinovitz",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2ZSITS5LMNEJNKVHA4Z5AK5524.jpg",
-      type:"normal"
+      type:"left"
     },
   ],
 };

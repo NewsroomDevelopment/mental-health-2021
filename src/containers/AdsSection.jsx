@@ -9,6 +9,7 @@ const AdBlock = styled.div`
   display:flex;
   justify-content:space-between;
   padding-bottom:10%;
+  padding-top:10%;
 `;
 
 const AdsSection = () => {

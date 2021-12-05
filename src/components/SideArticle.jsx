@@ -2,17 +2,16 @@ import React from "react";
 import styled from "styled-components";
 
 const ArticleWrap = styled.div`
-    display: flex;
-    flex-direction: column;
-    width: 70rem;
-    margin: 1rem;
-    padding-bottom:40px;
-    
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1rem;
+  padding-bottom: 40px;
 `;
 
 const Link = styled.a`
-    text-decoration: none;
-    width: inherit;
+text-decoration: none;
+  width: inherit;
 `;
 
 const ArticleImgLeft = styled.img`
@@ -20,17 +19,16 @@ const ArticleImgLeft = styled.img`
   position: static;
   width: 316px;
   height: 219px;
-  left: -10px;
+  left: 0px;
   top: 16px;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15);
   border-radius: 50px 10px 10px 50px;
-  
+
   /* Inside Auto Layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 40px;
   margin-right: 0px;
 `;
 
@@ -40,19 +38,18 @@ const ArticleImgRight = styled.img`
   position: static;
   width: 316px;
   height: 219px;
-  left: 664px;
+  left: 100px;
   top: 16px;
-
+  margin-right:10%;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15);
   border-radius: 10px 50px 50px 10px;
-  
+
   /* Inside Auto Layout */
-  
+
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left:0px;
-
+  margin-left: 0px;
 `;
 
 const ArticleText = styled.div`
@@ -67,7 +64,7 @@ const ArticleText = styled.div`
   margin-left: 0px;
   margin-right: 0px;
   float: left;
-  width: 40rem;
+  width: 35rem;
 `;
 
 const Title = styled.p`
@@ -93,32 +90,31 @@ const Author = styled.p`
   margin: 8px 0px;
 `;
 
-
-const SideArticle = ({ article, left } ) => {
+const SideArticle = ({ article, left }) => {
   if (left) {
     return (
       <ArticleWrap>
         <Link href={article.link} target="_blank" rel="noreferrer">
           <ArticleImgLeft src={article.img} />
-          <ArticleText style={{float: "right"}}>
+          <ArticleText style={{ float: "right", marginRight:"10%" }}>
             <Title>{article.title}</Title>
             <Author>{article.author}</Author>
           </ArticleText>
         </Link>
       </ArticleWrap>
-    )
-  } else { 
+    );
+  } else {
     return (
       <ArticleWrap>
         <Link href={article.link} target="_blank" rel="noreferrer">
           <ArticleImgRight src={article.img} />
-          <ArticleText float={'left'}>
+          <ArticleText float={"left"} >
             <Title>{article.title}</Title>
             <Author>{article.author}</Author>
           </ArticleText>
         </Link>
       </ArticleWrap>
-    )
+    );
   }
 };
 
