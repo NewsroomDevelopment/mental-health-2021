@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.e7ae302a.chunk.js",
-    "main.js.map": "/static/js/main.e7ae302a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.83436d2c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.83436d2c.js.map",
-    "static/js/2.ecb01b28.chunk.js": "/static/js/2.ecb01b28.chunk.js",
-    "static/js/2.ecb01b28.chunk.js.map": "/static/js/2.ecb01b28.chunk.js.map",
-    "static/js/3.6593e82a.chunk.js": "/static/js/3.6593e82a.chunk.js",
-    "static/js/3.6593e82a.chunk.js.map": "/static/js/3.6593e82a.chunk.js.map",
+    "main.css": "/static/css/main.85b1c90d.chunk.css",
+    "main.js": "/static/js/main.f2dc64f8.chunk.js",
+    "main.js.map": "/static/js/main.f2dc64f8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d8ffc5d0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d8ffc5d0.js.map",
+    "static/js/2.831108a8.chunk.js": "/static/js/2.831108a8.chunk.js",
+    "static/js/2.831108a8.chunk.js.map": "/static/js/2.831108a8.chunk.js.map",
+    "static/js/3.f3f48c39.chunk.js": "/static/js/3.f3f48c39.chunk.js",
+    "static/js/3.f3f48c39.chunk.js.map": "/static/js/3.f3f48c39.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.ecb01b28.chunk.js.LICENSE.txt": "/static/js/2.ecb01b28.chunk.js.LICENSE.txt",
-    "static/media/desktop_background.9b24e282.png": "/static/media/desktop_background.9b24e282.png"
+    "static/css/main.85b1c90d.chunk.css.map": "/static/css/main.85b1c90d.chunk.css.map",
+    "static/js/2.831108a8.chunk.js.LICENSE.txt": "/static/js/2.831108a8.chunk.js.LICENSE.txt",
+    "static/media/credits.b10daf6e.png": "/static/media/credits.b10daf6e.png",
+    "static/media/desktop_background.9b24e282.png": "/static/media/desktop_background.9b24e282.png",
+    "static/media/nav.68112163.png": "/static/media/nav.68112163.png",
+    "static/media/ny_basics_ad.23eea71c.png": "/static/media/ny_basics_ad.23eea71c.png",
+    "static/media/zabar_ad.1b3b9def.png": "/static/media/zabar_ad.1b3b9def.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.83436d2c.js",
-    "static/js/2.ecb01b28.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.e7ae302a.chunk.js"
+    "static/js/runtime-main.d8ffc5d0.js",
+    "static/js/2.831108a8.chunk.js",
+    "static/css/main.85b1c90d.chunk.css",
+    "static/js/main.f2dc64f8.chunk.js"
   ]
 }
