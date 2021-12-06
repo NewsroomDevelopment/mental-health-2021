@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 const ArticleWrap = styled.div`
-  width: 1000px;
   height: 601.82px;
   left: 0px;
   display: flex;
@@ -25,7 +24,7 @@ const ArticleImg = styled.img`
 
 const ArticleText = styled.div`
   position: absolute;
-  width: 863.64px;
+  width: 100%;
   height: 180.91px;
   left: 49.09px;
   top: 380.91px;
@@ -33,7 +32,7 @@ const ArticleText = styled.div`
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 70.2115px;
+  font-size: 2rem;
   line-height: 86px;
 
   color: #ffffff;
@@ -42,15 +41,15 @@ const ArticleText = styled.div`
 `;
 
 const Title = styled.p`
-  width: 863.64px;
+  width: 85%;
   height: 180.91px;
   left: 49.09px;
   top: 300.91px;
-
+  margin-${(prop) => prop.type}: 2%;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 50.2115px;
+  font-size: 2.5rem;
   line-height: 70px;
 
   color: #ffffff;
@@ -73,9 +72,9 @@ const Vertical = styled.div`
   border-left: 6px solid black;
   position: absolute;
   left: 40%;
-  height: ${(prop) => 600 - prop.top * 22.5}px;
+  height: ${(prop) => 600 - prop.top * 25}px;
 
-  top: ${(prop) => prop.top * 3.5}%;
+  top: ${(prop) => prop.top * 3.8}%;
 `;
 const BigArticle = ({ article }) => {
   return (
@@ -94,7 +93,7 @@ const BigArticle = ({ article }) => {
       >
         <ArticleImg src={article.img} />
         <ArticleText>
-          <Title>{article.title}</Title>
+          <Title type={article.type}>{article.title}</Title>
         </ArticleText>
       </Link>
       <VerticalText

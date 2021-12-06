@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import { device } from "../device";
+
 const Title = styled.p`
   font-family: Bitter;
   font-style: normal;
@@ -14,6 +16,9 @@ const Title = styled.p`
   position: relative;
   text-align: ${(prop) => (prop.linePosition === "after" ? "left" : "right")};
 
+  @media ${device.mobile} {
+    padding:2%;    
+  }
   /* Blue 02 */
 
   color: #1c5185;
@@ -27,6 +32,10 @@ const Title = styled.p`
     ${(prop) => (prop.linePosition === "before" ? "left" : "right")}: 0;
     top: 50%;
     position: absolute;
+
+    @media ${device.mobile} {
+      width: ${(prop) => 93 - prop.length * 7}%;
+    }
   }
 `;
 const SectionTitle = ({ linePosition, title }) => {

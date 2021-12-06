@@ -4,14 +4,14 @@ const WritingData = {
       title:
         "Overwhelmed college counseling services struggle to offer all students immediate access to care",
       link: "https://www.columbiaspectator.com/news/2021/10/19/overwhelmed-college-counseling-services-struggle-to-offer-all-students-immediate-access-to-care/",
-      author: "BEN DAHAN",
+      author: "Ben Dahan",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/V5NIBNEMAVEOXJJ7XFKNTX673U.jpg",
       type: "normal",
     },
     {
       title: "Pandemic stresses lead to faculty burnout",
       link: "https://www.columbiaspectator.com/news/2021/11/16/pandemic-stresses-lead-to-faculty-burnout/",
-      author: "ESHA KARAM and MICHAEL VONDRISKA",
+      author: "Esha Karam and Michael Vondriska",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/45QQJUJUHJBLFOD7CVA6NF5CHY.jpg",
       type:"normal",
     },
@@ -37,21 +37,21 @@ const WritingData = {
       title:
         "The student veteran dilemma: The difficulty of finding a new community after leaving one behind",
       link: "https://www.columbiaspectator.com/opinion/2021/11/11/the-student-veteran-dilemma-the-difficulty-of-finding-a-new-community-after-leaving-one-behind/",
-      author: "ANTHONY COSTANZO AND KEVIN PETERSEN",
+      author: "Anthony Costanzo and Kevin Petersen",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WKZWQTETGRGLBJQYX2EEEDQDHE.jpg",
       type:"normal"
     },
     {
       title: "We served too: on the experiences of female veterans",
       link: "https://www.columbiaspectator.com/opinion/2021/11/16/we-served-too-on-the-experiences-of-female-veterans/",
-      author: "EBONNIE GOODFIELD",
+      author: "Ebonnie Goodfield",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KSRNBP4LC5CMLMXWVIL34X7QZQ.jpg",
       type:"normal"
     },
     {
       title: "Ask Alma: Procrastinator’s karma, how do I cram for exams?",
       link: "https://www.columbiaspectator.com/opinion/2021/11/18/ask-alma-procrastinators-karma-how-do-i-cram-for-exams/",
-      author: "ALMA MATER",
+      author: "Alma Mater",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7K6UJ47GK5DSRL75VVRWMY4HU4.gif",
       type:"normal"
     },
@@ -61,7 +61,7 @@ const WritingData = {
       title:
         "Columbia dancers battle the culture of silence that the dance world promotes",
       link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/11/16/columbia-dancers-battle-the-culture-of-silence-that-the-dance-world-promotes/",
-      author: "EMMA DANON AND LIZ RADWAY",
+      author: "Emma Danon and Liz Radway",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MXWFBBQKZRF5ZDMWHGRTV6VRTQ.jpeg",
       type:"normal"
     },
@@ -69,7 +69,7 @@ const WritingData = {
       title:
         "Must the show go on? A look at mental health in the theater industry and in campus theater",
       link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/11/16/must-the-show-go-on-a-look-at-mental-health-in-the-theater-industry-and-in-campus-theater/",
-      author: "JANE LOUGHMAN AND CLARE DONALDSON",
+      author: "Jane Loughman and Clare Donaldson",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7V5TSOGAA5GMPCKIFNDP7WIBJA.JPG",
       type:"normal"
     },
@@ -77,7 +77,7 @@ const WritingData = {
       title:
         "Students speak on factors exacerbating disordered eating at Columbia and Barnard",
       link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/11/18/students-speak-on-factors-exacerbating-disordered-eating-at-columbia-and-barnard/",
-      author: "JULIA TONG",
+      author: "Julia Tong",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/NXU5LUA7NZGTNHDMLD7FFWRAF4.jpeg",
       type:"normal"
     },
@@ -85,7 +85,7 @@ const WritingData = {
       title:
         "Surge in audition numbers for performing arts groups fueled selective acceptance rates",
       link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/11/03/surge-in-audition-numbers-for-performing-arts-groups-fueled-selective-acceptance-rates/",
-      author: "DANIELA MIRANDA AND JANE LOUGHMAN",
+      author: "Daniela Miranda and Jane Loughman",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MONHRLRTXJGQXHGZY3PUPRRXH4.JPG",
       type:"left",
     },
@@ -93,7 +93,7 @@ const WritingData = {
       title:
         "Isabella Souza, CC ’25, on her self-help book and the stigmatization of mental health",
       link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/11/07/isabella-souza-cc-25-on-her-self-help-book-and-the-stigmatization-of-mental-health/",
-      author: "EMILY CHEN",
+      author: "Emily Chen",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KQZ6PE4WONBSJKKK23T7YXEOAI.jpg",
       type:"right",
     },
@@ -101,14 +101,14 @@ const WritingData = {
       title:
         "Meet Liz Seibert: The TikTok-famous model speaking her truth about the industry",
       link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/10/27/meet-liz-seibert-the-tiktok-famous-model-speaking-her-truth-about-the-industry/",
-      author: "ISABELLA FARFAN",
+      author: "Isabella Farfan",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IM54FCGEIRBWPIQD3VFPCE57KY.jpg",
       type:"normal"
     },
     {
       title: "The power of cooking to heal oneself and others",
       link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/11/22/the-power-of-cooking-to-heal-oneself-and-others/",
-      author: "NICHI PANDEY",
+      author: "Nichi Pandey",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5IHNZGY7INDRXC2OE3HUDZ7NNY.JPG",
       type:"normal"
     },
@@ -126,7 +126,7 @@ const WritingData = {
       title:
         "Bold and Brazen: Celebrating art and mental health as a Black student-athlete",
       link: "https://www.columbiaspectator.com/sports/2021/02/15/bold-and-brazen-celebrating-art-and-mental-health-as-a-black-student-athlete/",
-      author: "CLARA ENCE MORSE",
+      author: "Clara Ence Morse",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MKIV52ONRBGVPJ2YSHPB5FDTTU.jpg",
       type: "normal"
     },
@@ -135,7 +135,7 @@ const WritingData = {
     {
       title: "How are you feeling? A community check-in",
       link: "https://www.columbiaspectator.com/podcasts/2021/05/04/how-are-you-feeling-a-community-check-in/",
-      author: "LILY GLASER",
+      author: "Lily Glaser",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4Y2DM6XAVVE7XMYWHDHV3MZ53I.jpg",
       type: "normal"
     },
@@ -187,7 +187,7 @@ const WritingData = {
     {
       title: "Home away from home: International students reflect",
       link: "https://www.columbiaspectator.com/spectrum/2021/11/08/home-away-from-home-international-students-reflect/",
-      author: "Charlotte Wu and Fatma AlAryani",
+      author: "Charlotte Wu and Fatma Alaryani",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XP4B2UGA7FGMLHCZCUCUBJPR6M.JPG",
       type:"normal"
     },
@@ -201,7 +201,7 @@ const WritingData = {
     {
       title: "[QUIZ] Self-care for the stressed Columbia student",
       link: "https://www.columbiaspectator.com/spectrum/2021/11/07/quiz-self-care-for-the-stressed-columbia-student/",
-      author: "Rose O'Brien",
+      author: "Rose O'brien",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DXMEQNTFBFDVZIOC55KPMXYEUA.jpg",
       type:"left"
     },

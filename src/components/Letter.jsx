@@ -9,11 +9,11 @@ const Title = styled.div`
   padding: 2%;
   font-size: 3rem;
   background-image: linear-gradient(
-      89.88deg,
-      #000748 35.17%,
-      #204352 66.32%,
-      #12909e 91.06%
-    );
+    89.88deg,
+    #000748 35.17%,
+    #204352 66.32%,
+    #12909e 91.06%
+  );
 
   background-size: 100%;
   -webkit-background-clip: text;
@@ -93,8 +93,10 @@ const Letter = () => {
         </p>
         <p>
           Wishing you a meaningful end to the semester, <br />
-          Sarah Braka, Editor in Chief <br />
-          Elizabeth Karpen, Managing Editor
+          <p>
+            Sarah Braka, Editor in Chief <br />
+            Elizabeth Karpen, Managing Editor
+          </p>
         </p>
       </Text>
     </LetterSection>

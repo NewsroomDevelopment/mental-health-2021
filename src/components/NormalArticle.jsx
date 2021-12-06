@@ -1,14 +1,20 @@
 import React from "react";
 import styled from "styled-components";
 
+import { device } from "../device";
+
 const ArticleWrap = styled.div`
   display: flex;
-  flex-direction:row;
-  width: 18rem;
-  margin: 1.5rem;
-  flex-grow:1;
+  flex-direction: row;
+  width: 19vw;
+  margin: 2.25vw;
+  flex-grow: 1;
   display: inline-block;
   vertical-align: top;
+
+  @media ${device.mobile} {
+    width: 95vw;
+  }
 `;
 
 const Link = styled.a`
@@ -21,12 +27,17 @@ const ArticleImg = styled.img`
 
   margin: 24px 0px;
   position: static;
-  width: 300px;
-  height: 219px;
+  width: 20vw;
+  height: 15vw;
   left: 8px;
   top: 8px;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
   border-radius: 30px 30px 10px 10px;
+
+  @media ${device.mobile} {
+    width: 100%;
+    height: 60vw;
+  }
 `;
 
 const ArticleText = styled.div`
@@ -44,18 +55,22 @@ const Title = styled.p`
   font-family: Bitter;
   font-style: normal;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 1.5rem;
   line-height: 38px;
   flex: none;
   order: 0;
   margin: 8px 0px;
+
+  @media ${device.mobile} {
+    width: 90vw;
+  }
 `;
 
 const Author = styled.p`
   font-family: Bitter;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1rem;
   line-height: 29px;
   flex: none;
   order: 1;

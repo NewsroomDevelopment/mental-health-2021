@@ -10,6 +10,12 @@ const CreditsSection = styled.div`
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+
+  @media ${device.mobile} {
+    h2 {
+      font-size:2rem;
+    }
+  }
 `;
 
 const CreditsTitle = styled.div`
@@ -19,6 +25,10 @@ const CreditsTitle = styled.div`
   top: 20%;
   padding-top: 7%;
   font-size: 5rem;
+
+  @media ${device.mobile} {
+    padding-top: 50%;
+  }
 `;
 
 const Body = styled.div`
@@ -27,6 +37,10 @@ const Body = styled.div`
     color: white;
   }
   margin-top: 5%;
+
+  @media ${device.mobile} {
+    padding-left: 5%;
+  }
 `;
 
 const SubDiv = styled.div`
@@ -34,6 +48,9 @@ const SubDiv = styled.div`
   width: fit-content;
 
   color: white;
+  @media ${device.mobile} {
+    width:100vw;
+  }
 `;
 
 const Row = styled.div`

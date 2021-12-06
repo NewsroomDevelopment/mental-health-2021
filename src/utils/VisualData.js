@@ -8,12 +8,12 @@ const VisualData = {
       type: "right",
     },
   ],
-  illo: [
+  illustrations: [
     {
-      title: "In Focus: What does self-care look like at Columbia?",
-      link: "https://www.columbiaspectator.com/photo-essay/2019/10/31/in-focus-what-does-self-care-look-like-at-columbia/",
-      author: "Aliya Schneider",
-      img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WQJAIG6LIBEDBEW74AY3DCCGYQ.jpg",
+      title: "Dessert Therapy: Cooking up well-being",
+      link: "https://desserttherapy.columbiadailyspectator.com/",
+      author: "Tina Wang",
+      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EYNMNBNHTBEHHCGGH65JFXMOD4.png",
       type: "left",
     },
   ],

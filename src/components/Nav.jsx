@@ -12,7 +12,7 @@ const NavSection = styled.div`
   overflow: hidden;
   background-position: left;
   width: 100%;
-  height: 40vw;
+  height: 45vw;
   position: sticky;
   top: 0;
 
@@ -23,7 +23,7 @@ const NavSection = styled.div`
 
 const SectionNav = styled.div`
   position: relative;
-  font-size: 1.75em;
+  font-size: 1.75rem;
   line-height: 1.85em;
   color: white;
   font-weight: bold;
@@ -31,7 +31,7 @@ const SectionNav = styled.div`
 `;
 
 const NavText = styled.div`
-  margin-top: 25%;
+  margin-top: 5vw;
 `;
 
 const Nav = () => {
@@ -43,6 +43,7 @@ const Nav = () => {
     podcasts: 5,
     spectrum: 4,
     photo: 7,
+    illustrations: 3,
     graphics: 4,
   };
   return (

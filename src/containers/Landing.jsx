@@ -16,6 +16,10 @@ const TitleWrapper = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  @media ${device.mobile} {
+    background-position: 40%;
+  }
 `;
 
 const Header = styled.div`
@@ -28,24 +32,14 @@ const Header = styled.div`
   width: 50%;
   left: 8%;
   font-family: montserrat;
-  & > h1 {
-    font-size: 6rem;
-  }
 
+  h1 {
+    font-size:5rem;
+  }
   @media ${device.mobile} {
-    line-height: 1em;
-    margin-top:3rem;
-  }
-  @media only screen and (max-width: 1024px) {
-    word-wrap: break-word;
-    color: white;
-    & > h1 {
-      font-size: 2.5rem;
-    }
-  }
-  @media only screen and (max-width: 500px) {
-    margin: 3rem 3rem;
-    text-align: center;
+    line-height: 1em !important;
+    margin-top: -2.5rem;
+    font-size: 3rem !important;
   }
 `;
 
@@ -62,7 +56,7 @@ const Landing = () => {
       <MobileAndTablet>
         <TitleWrapper img={ImgSrc_mobile}>
           <Header>
-            <h1 style={{ "line-height": "5em" }}>Mental health on campus</h1>
+            <h1 style={{ "line-height": "2em" }}>Mental health on campus</h1>
           </Header>
         </TitleWrapper>
       </MobileAndTablet>

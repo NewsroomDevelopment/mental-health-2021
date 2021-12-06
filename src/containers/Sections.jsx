@@ -10,16 +10,28 @@ import Credits from "./Credits";
 
 import WritingData from "../utils/WritingData";
 import VisualData from "../utils/VisualData";
+
+import { device } from "../device";
+
 const Columns = styled.div`
   display: flex;
 `;
 const NavColumn = styled.div`
   width: 25%;
+
+  @media ${device.mobile} {
+    width:0;
+  }
 `;
 
 const ArticleColumn = styled.div`
   width: 75%;
   padding-right: 5%;
+
+  @media ${device.mobile} {
+    width:100%;
+    padding-right:0%;
+  }
 `;
 const Title = styled.div`
   text-align: center;

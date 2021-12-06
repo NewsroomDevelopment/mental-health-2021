@@ -7,9 +7,6 @@ export const GlobalStyles = createGlobalStyle`
         font-weight: 700;
         fontStyle: bold;
         font-size: 4rem;
-        @media (max-width: 767px) {
-            font-size: 1rem;
-        }
     }
     div {
         font-family: 'Montserrat', sans-serif;

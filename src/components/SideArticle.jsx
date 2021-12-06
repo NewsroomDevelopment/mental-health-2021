@@ -10,17 +10,16 @@ const ArticleWrap = styled.div`
 `;
 
 const Link = styled.a`
-text-decoration: none;
+  text-decoration: none;
   width: inherit;
 `;
 
 const ArticleImgLeft = styled.img`
   float: left;
   position: static;
-  width: 316px;
-  height: 219px;
+  width: 25vw;
+  height: 18vw;
   left: 0px;
-  top: 16px;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15);
   border-radius: 50px 10px 10px 50px;
 
@@ -29,45 +28,41 @@ const ArticleImgLeft = styled.img`
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-right: 0px;
 `;
 
 const ArticleImgRight = styled.img`
   float: right;
 
   position: static;
-  width: 316px;
-  height: 219px;
+  width: 25vw;
+  height: 18vw;
   left: 100px;
-  top: 16px;
-  margin-right:10%;
+  top: 5vh;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15);
   border-radius: 10px 50px 50px 10px;
-
   /* Inside Auto Layout */
 
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: 0px;
+  margin-right: 2.5vw;
 `;
 
 const ArticleText = styled.div`
+  margin: 0;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: 0px;
-  margin-right: 0px;
-  float: left;
-  width: 35rem;
+  width: 30vw;
 `;
 
 const Title = styled.p`
+  margin: 0;
   font-family: Bitter;
   font-style: normal;
   font-weight: bold;
@@ -96,7 +91,7 @@ const SideArticle = ({ article, left }) => {
       <ArticleWrap>
         <Link href={article.link} target="_blank" rel="noreferrer">
           <ArticleImgLeft src={article.img} />
-          <ArticleText style={{ float: "right", marginRight:"10%" }}>
+          <ArticleText style={{ float: "right", paddingRight: "5%" }}>
             <Title>{article.title}</Title>
             <Author>{article.author}</Author>
           </ArticleText>
@@ -108,7 +103,7 @@ const SideArticle = ({ article, left }) => {
       <ArticleWrap>
         <Link href={article.link} target="_blank" rel="noreferrer">
           <ArticleImgRight src={article.img} />
-          <ArticleText float={"left"} >
+          <ArticleText float={"left"}>
             <Title>{article.title}</Title>
             <Author>{article.author}</Author>
           </ArticleText>
