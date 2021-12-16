@@ -34,12 +34,14 @@ const Header = styled.div`
   font-family: montserrat;
 
   h1 {
-    font-size:5rem;
+    font-size: 5rem;
   }
   @media ${device.mobile} {
     line-height: 1em !important;
-    margin-top: -2.5rem;
-    font-size: 3rem !important;
+    margin-top: -2rem;
+    h1 {
+      font-size: 3rem !important;
+    }
   }
 `;
 

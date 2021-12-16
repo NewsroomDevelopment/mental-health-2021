@@ -13,7 +13,7 @@ const CreditsSection = styled.div`
 
   @media ${device.mobile} {
     h2 {
-      font-size:2rem;
+      font-size: 2rem;
     }
   }
 `;
@@ -49,7 +49,7 @@ const SubDiv = styled.div`
 
   color: white;
   @media ${device.mobile} {
-    width:100vw;
+    width: 100vw;
   }
 `;
 
@@ -172,53 +172,65 @@ const Credits = () => {
                 <b>Celeste Ramirez</b>, Associate Editorial Page Editor
               </p>
             </div>
-            <div>
-              <h2>Arts and Entertainment</h2>
-              <p>
-                <b>Noah Sheidlower</b>, A&E Editor
-              </p>
-              <p>
-                <b>Katie Levine</b>, A&E Deputy Editor
-              </p>
-              <p>
-                <b>Olivia Doyle</b>, A&E Deputy Editor
-              </p>
-              <p>
-                <b>Bella Druckman</b>, A&E Deputy Editor
-              </p>
-              <p>
-                <b>Sophie Craig</b>, A&E Deputy Editor
-              </p>
-              <p>
-                <b>Isabella Farfan</b>, A&E Staff Writer
-              </p>
-              <p>
-                <b>Daniela Miranda</b>, A&E Staff Writer
-              </p>
-              <p>
-                <b>Jane Loughman</b>, A&E Staff Writer
-              </p>
-              <p>
-                <b>Clare Donaldson</b>, A&E Staff Writer
-              </p>
-              <p>
-                <b>Emma Danon</b>, A&E Staff Writer
-              </p>
-              <p>
-                <b>Liz Radway</b>, A&E Staff Writer
-              </p>
-              <p>
-                <b>Julia Tong</b>, A&E Staff Writer
-              </p>
-              <p>
-                <b>Emily Chen</b>, A&E Staff Writer
-              </p>
-            </div>
 
             <div>
               <h2>Spec Audio</h2>
               <p>
                 <b>Samuel Hyman</b>, Executive Editor of the Ear
+              </p>
+            </div>
+            <div>
+              <h2>Revenue</h2>
+              <p>
+                <b>Amanda Teramihardja</b>, Revenue Associate
+              </p>
+              <p>
+                <b>Haru Yamanaka</b>, Revenue Manager
+              </p>
+              <p>
+                <b>Vilanna Wang</b>, Revenue Manager
+              </p>
+              <p>
+                <b>Rachel Forest</b>, Revenue Manager
+              </p>
+              <p>
+                <b>Anushka Thorat</b>, Revenue Manager
+              </p>
+              <p>
+                <b>Suheyla Tozan</b>, Revenue Associate
+              </p>
+              <p>
+                <b>Kevin Jiang</b>, Revenue Associate
+              </p>
+              <p>
+                <b>Helen Hung</b>, Revenue Associate
+              </p>
+              <p>
+                <b>Angela Chea</b>, Revenue Associate
+              </p>
+              <p>
+                <b>Jamin Feng</b>, Revenue Associate
+              </p>
+              <p>
+                <b>Tyler Shern</b>, Revenue Associate
+              </p>
+              <p>
+                <b>Kris Packauskas</b>, Revenue Associate
+              </p>
+              <p>
+                <b>Lisa Cardoso</b>, Revenue Associate
+              </p>
+              <p>
+                <b>Ece Hasdemir</b>, Revenue Associate
+              </p>
+              <p>
+                <b>Ian Civiletti</b>, Revenue Associate
+              </p>
+              <p>
+                <b>Mike Kim</b>, Revenue Associate
+              </p>
+              <p>
+                <b>April Lin</b>, Revenue Associate
               </p>
             </div>
           </SubDiv>
@@ -341,57 +353,45 @@ const Credits = () => {
               </p>
             </div>
             <div>
-              <h2>Revenue</h2>
+              <h2>Arts and Entertainment</h2>
               <p>
-                <b>Amanda Teramihardja</b>, Revenue Associate
+                <b>Noah Sheidlower</b>, A&E Editor
               </p>
               <p>
-                <b>Haru Yamanaka</b>, Revenue Manager
+                <b>Katie Levine</b>, A&E Deputy Editor
               </p>
               <p>
-                <b>Vilanna Wang</b>, Revenue Manager
+                <b>Olivia Doyle</b>, A&E Deputy Editor
               </p>
               <p>
-                <b>Rachel Forest</b>, Revenue Manager
+                <b>Bella Druckman</b>, A&E Deputy Editor
               </p>
               <p>
-                <b>Anushka Thorat</b>, Revenue Manager
+                <b>Sophie Craig</b>, A&E Deputy Editor
               </p>
               <p>
-                <b>Suheyla Tozan</b>, Revenue Associate
+                <b>Isabella Farfan</b>, A&E Staff Writer
               </p>
               <p>
-                <b>Kevin Jiang</b>, Revenue Associate
+                <b>Daniela Miranda</b>, A&E Staff Writer
               </p>
               <p>
-                <b>Helen Hung</b>, Revenue Associate
+                <b>Jane Loughman</b>, A&E Staff Writer
               </p>
               <p>
-                <b>Angela Chea</b>, Revenue Associate
+                <b>Clare Donaldson</b>, A&E Staff Writer
               </p>
               <p>
-                <b>Jamin Feng</b>, Revenue Associate
+                <b>Emma Danon</b>, A&E Staff Writer
               </p>
               <p>
-                <b>Tyler Shern</b>, Revenue Associate
+                <b>Liz Radway</b>, A&E Staff Writer
               </p>
               <p>
-                <b>Kris Packauskas</b>, Revenue Associate
+                <b>Julia Tong</b>, A&E Staff Writer
               </p>
               <p>
-                <b>Lisa Cardoso</b>, Revenue Associate
-              </p>
-              <p>
-                <b>Ece Hasdemir</b>, Revenue Associate
-              </p>
-              <p>
-                <b>Ian Civiletti</b>, Revenue Associate
-              </p>
-              <p>
-                <b>Mike Kim</b>, Revenue Associate
-              </p>
-              <p>
-                <b>April Lin</b>, Revenue Associate
+                <b>Emily Chen</b>, A&E Staff Writer
               </p>
             </div>
           </SubDiv>
