@@ -5,7 +5,6 @@ import Article from "../components/Article"
 
 
 const WritingSection = ({ title, articles, linePosition }) => {
-  console.log(articles);
   return (
     <>
       {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

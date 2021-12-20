@@ -78,7 +78,6 @@ const Author = styled.p`
 `;
 
 const NormalArticle = ({ article }) => {
-  console.log(article);
   return (
     <ArticleWrap>
       <Link href={article.link} target="_blank" rel="noreferrer">

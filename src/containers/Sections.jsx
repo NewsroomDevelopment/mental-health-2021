@@ -59,7 +59,6 @@ const Title = styled.div`
 `;
 
 const Sections = () => {
-  console.log(WritingData["Photo"]);
   return (
     <>
       <Columns>

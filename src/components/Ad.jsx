@@ -11,7 +11,6 @@ const AdBlock = styled.div`
   height: 80vh;
 `;
 const Ad = ({ img }) => {
-  console.log(img);
   return <AdBlock img={img} />;
 };
 export default Ad;
