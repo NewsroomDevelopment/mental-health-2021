@@ -399,49 +399,58 @@ const Credits = () => {
             <div>
               <h2>Lead Illustration By</h2>
               <p>
-                <b>Taylor Yingshi</b>, Staff Illustrator
+                <b>Taylor Yingshi</b>, Staff Illustrator{" "}
               </p>
             </div>
             <div>
               <h2>Illustrations</h2>
               <p>
-                <b>Brenda Huang</b>, Illustrations Editor
+                <br>Brenda Huang</br>, Illustrations Editor{" "}
               </p>
               <p>
-                <b>Yingjie Wang</b>, Deputy Illustrations Editor
+                <br>Yingjie Wang</br>, Deputy Illustrations Editor{" "}
               </p>
               <p>
-                <b>Liza Evseeva</b>, Deputy Illustrations Editor
+                <br>Liza Evseeva</br>, Deputy Illustrations Editor{" "}
               </p>
               <p>
-                <b>Carlos Ochoa</b>, Deputy Illustrations Editor
+                <br>Carlos Ochoa</br>, Deputy Illustrations Editor{" "}
               </p>
               <p>
-                <b>Ashley Jiao</b>, Deputy Illustrations Editor
+                <br>Ashley Jiao</br>, Deputy Illustrations Editor{" "}
               </p>
               <p>
-                <b>Tina Wang</b>, Staff Illustrator
+                <br>Tina Wang</br>, Staff Illustrator{" "}
               </p>
               <p>
-                <b>Katya Reichart</b>, Staff Illustrator
+                <br>Katya Reichart</br>, Staff Illustrator{" "}
               </p>
               <p>
-                <b>Magan Chin</b>, Staff Illustrator
+                <br>Magan Chin</br>, Staff Illustrator{" "}
               </p>
               <p>
-                <b>Natalie Tak</b>, Staff Illustrator
+                <br>Natalie Tak</br>, Staff Illustrator{" "}
               </p>
               <p>
-                <b>Sadia Sharif</b>, Staff Illustrator
+                <br>Sadia Sharif</br>, Staff Illustrator{" "}
               </p>
               <p>
-                <b>Marion Kamara</b>, Staff Illustrator
+                <br>Marion Kamara</br>, Staff Illustrator{" "}
               </p>
               <p>
-                <b>Tejasri Vijayakumar</b>, Staff Illustrator
+                <br>Tejasri Vijayakumar</br>, Staff Illustrator{" "}
               </p>
               <p>
-                <b>Ji Yoon Sim</b>, Staff Illustrator
+                <br>Ji Yoon Sim</br>, Staff Illustrator{" "}
+              </p>
+              <p>
+                <br>Julian Michaud</br>, Staff Illustrator{" "}
+              </p>
+              <p>
+                <br>Chiara Guigou</br>, Staff Illustrator{" "}
+              </p>
+              <p>
+                <br>Noelle Hunter</br>, Staff Illustrator{" "}
               </p>
             </div>
             <div>
